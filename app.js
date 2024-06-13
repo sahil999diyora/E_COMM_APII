@@ -13,7 +13,7 @@ var cartRouter = require('./routes/cart');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://SSDIYORA7804:MONGODBSAHIL@cluster0.tcdyo4h.mongodb.net/E_COMMERCE')
+mongoose.connect('mongodb://127.0.0.1:27017/E_COMMERCE')
   .then(() => console.log('DATABASE CONNECTED SUCESSFULLY : )'))
   .catch((error) => console.log(error.message))
 
